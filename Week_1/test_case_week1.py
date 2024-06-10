@@ -1,9 +1,9 @@
 """This module define test case for AIO2024 Module 1 week 1 exercise."""
-import exercise_1
-import exercise_2
-import exercise_3
-import exercise_4
-import exercise_5
+import calculate_f1_score as exercise_1
+import activate_function as exercise_2
+import regression_loss as exercise_3
+import hyperbolic_approx as exercise_4
+import md_rne as exercise_5
 
 if __name__ == "__main__":
 ########### Exercise 1 ###########

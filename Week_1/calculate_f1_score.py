@@ -19,6 +19,7 @@ def cal_f1_score(tp: int, fn: int, fp: int) -> tuple[float,float,float]:
     precision = tp / (tp + fp)
     recall = tp / (tp + fn)
     f1 = 2 * (precision * recall) / (precision + recall)
+
     print(f"precision is {precision}")
     print(f"recall is {recall}")
     print(f"f1 score is {f1}")
