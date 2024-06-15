@@ -25,7 +25,7 @@ def leveshtein(word1 : str, word2: str) -> float:
     #Fill the matrix
     for i in range(1,len_word1 + 1):
         for j in range(1,len_word2 + 1):
-    #iterate through every element of matrix, skipping the 1st row and cal which has been filled
+#iterate through every element of matrix, skipping the 1st row and cal which has been filled
             if word1[i - 1] == word2[j - 1]: #
                 matrix[i][j] = matrix[i-1][j-1]
 #the element of matrix gain the previous value from its main diagonal
