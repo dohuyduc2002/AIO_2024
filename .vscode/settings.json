@@ -2,5 +2,6 @@
     "sonarlint.connectedMode.project": {
         "connectionId": "dohuyduc2002",
         "projectKey": "dohuyduc2002_AIO_2024"
-    }
+    },
+    "python.analysis.autoImportCompletions": true
 }
