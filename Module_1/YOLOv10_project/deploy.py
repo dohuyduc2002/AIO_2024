@@ -4,6 +4,7 @@ import numpy as np
 from PIL import Image
 import streamlit as st
 from ultralytics import YOLOv10
+import torch
 
 MODEL_PATH = "./models/best.pt"
 
@@ -11,7 +12,7 @@ MODEL_PATH = "./models/best.pt"
 def process_image(image):
     model = YOLOv10(MODEL_PATH)
     result = model(image)[0]
-    result.save('./predicts/output.png')
+    result.save('./output.png')
 
 
 def main():
@@ -23,7 +24,7 @@ def main():
         image = Image.open(file)
         image = np.array(image)
         process_image(image)
-        predict_image = cv2.imread('./predicts/output.png')
+        predict_image = cv2.imread('./output.png')
         st.image(predict_image, caption="Predict Image")
 
 
