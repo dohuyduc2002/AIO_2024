@@ -3,5 +3,10 @@
 ### Week 1: Basic Python and activate function
 ### Week 2: Basic algorithms
 ### Week 3: Basic data structure
-### Week 4: Project
+### Week 4: Project 
+#### Streamlit development projects
+#### Using YOLOv10 for helmet detection
+#### Building RAG pipeline using Vicuna 7b model 
 
+## Module 2: Introduction to Numpy
+### Week 1: 1D and 2D Numpy array
