@@ -10,3 +10,6 @@
 
 ## Module 2: Introduction to Numpy
 ### Week 1: 1D and 2D Numpy array
+### Week 2: Linear algebra
+### Week 3: Probability
+### Week 4: Statistics
