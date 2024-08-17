@@ -13,3 +13,6 @@
 ### Week 2: Linear algebra
 ### Week 3: Probability
 ### Week 4: Statistics
+#### Image depth estimation project
+#### Image retrieval project
+#### Spam classification project
